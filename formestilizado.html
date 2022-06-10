@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<title>Formulário</title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="stylecss.css">
+	<body>
+
+	    <nav id='menu'>
+		  <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+		  <ul>
+			<li><a href='http://'>Ínicio</a></li>
+			<li><a class='dropdown-arrow' href='http://'>Produtos</a>
+			  <ul class='sub-menus'>
+				<li><a href='http://'>Produto 1</a></li>
+				<li><a href='http://'>Produto 2</a></li>
+				<li><a href='http://'>Produto 3</a></li>
+				<li><a href='http://'>Produto 4</a></li>
+			  </ul>
+			</li>
+			<li><a href='http://'>Sobre</a></li>
+			<li><a class='dropdown-arrow' href='http://'>Serviços</a>
+			  <ul class='sub-menus'>
+				<li><a href='http://'>Serviço 1</a></li>
+				<li><a href='http://'>Serviço 2</a></li>
+				<li><a href='http://'>Serviço 3</a></li>
+			  </ul>
+			</li>
+			<li><a href='http://'>Contato</a></li>
+		  </ul>
+		</nav>
+
+</body>
+<div align="center" <section>
+ <img src="imagemhtml.png" title="HTML" height="120px" width="300px">
+ </section><br>
+ <section> 
+<form method="post" action="*">
+ Nome: &nbsp&nbsp&nbsp <input type="text" name="nome"><br><br>
+ Email: &nbsp&nbsp&nbsp <input type="text" name="email"><br><br>
+ Senha: &nbsp&nbsp&nbsp <input type="password" name="senha"><br><br>
+ Telefone: <input type="text" name="telefone" maxlength="12" pattern="[0-9]{7}[0-9]{4}"><br><br>
+ Sexo: <input type="radio" name="sexo" value="masculino">Masculino
+	   <input type="radio" name="sexo" value="feminino">Feminino
+       <input type="radio" name="sexo" value="outro">Outro<br><br>
+ CPF: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="text" name="cpf" maxlength="14" pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}"><br><br>
+ Estado: &nbsp&nbsp <input type="text" name="estado"><br><br>
+ Cidade:&nbsp&nbsp <input type="text" name="cidade"><br><br>
+ <input type="checkbox" name="concordo" value"1">Concordo com os termos de uso<br>
+ <input type="checkbox" name="concordo" value"1">Quero receber novidades por email<br><br>
+ <input type="submit"></button>
+</form></section>
+</html>
